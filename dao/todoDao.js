@@ -1,5 +1,5 @@
-var mongoose=require('mongoose');
-var db = mongoose.createConnection('mongodb://114.215.211.134:27017/todo');
+﻿var mongoose=require('mongoose');
+var db = mongoose.createConnection('mongodb://localhost:27017/todo');
 
 db.on('error', function(error) {
     console.log(error);
